@@ -1,0 +1,21 @@
+# Kaggle ortamında ilk hücreye bu komutu yapıştırın:
+# !pip install -r requirements.txt --quiet
+
+torch>=2.1.0
+torchvision>=0.16.0
+monai[all]>=1.3.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+Pillow>=10.0.0
+tqdm>=4.65.0
+pydicom>=2.4.0          # DICOM dosyaları için
+nibabel>=5.1.0          # NIfTI dosyaları için
+onnx>=1.14.0            # ONNX export için
+onnxruntime>=1.16.0     # ONNX inference için
+segmentation-models-pytorch>=0.3.3   # U-Net++ için
+lion-pytorch>=0.1.0     # Lion optimizer için
+albumentations>=1.3.1   # Ek augmentasyon için
